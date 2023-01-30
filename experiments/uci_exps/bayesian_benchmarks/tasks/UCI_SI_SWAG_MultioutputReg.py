@@ -2,8 +2,12 @@
 """
 Created on Fri Jan 27 15:00:54 2023
 
+Copyright (c) 2018, Wesley Maddox, Timur Garipov, Pavel Izmailov,  Dmitry Vetrov, Andrew Gordon Wilson
+All rights reserved.
+
 @author: BD
 """
+
 
 import argparse
 import numpy as np
