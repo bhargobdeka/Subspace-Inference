@@ -71,7 +71,7 @@ for j in range(len(data_name)):
     
     
     if args.dataset == 'enb':
-        args.epochs  = 100
+        args.epochs  = 1000
         args.batch_size = 100
         args.lr_init = 1e-03
         # args.noise_var = True
@@ -81,7 +81,7 @@ for j in range(len(data_name)):
         args.swag = True # SWAG or not
         args.swag_lr = 1e-3
         args.subspace = 'pca'
-        args.swag_start = 50
+        args.swag_start = 500
        
         # args.temperature = 10000
         args.database_path = 'results_small.db'
