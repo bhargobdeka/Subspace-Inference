@@ -1,0 +1,12 @@
+#!/bin/sh
+'''exec' "/Users/bhargobdeka/MLCIV Dropbox/Bhargob Deka/Bayesian-Neural-Networks/drbayes-master/experiments/uci_exps/bayesian_benchmarks/tasks/.venv_dr_bayes_sub/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from setuptools.command.easy_install import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
